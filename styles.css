@@ -1,8 +1,8 @@
 @import "https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap";
 
 :root {
-  --color-green: #ebbe72;
-  --color-site: #333333;
+  --color-green: #445e43;
+  --color-site: #202020;
 }
 
 * {
@@ -12,7 +12,8 @@
   border: 0; /* Zeramos o border */
 } /* Com isto acima, ressetamos estas propriedades */
 body {
-  background: #533745; /* Cor de fundo */
+  background-image: url("https://wallpaperbat.com/img/384932-programming-wallpaper.jpg");
+
   font-family: "Source Sans Pro", sans-serif; /* Definimos o tipo de fonte */
   color: white;
 }
@@ -63,7 +64,8 @@ header {
 }
 #wrapper h1 {
   font-size: 42px; /* Tamanho da fonte */
-  line-height: 52px; /* Define a altura do texto. Recomenda-se atribuir */
+  line-height: 52px;
+  border: #333; /* Define a altura do texto. Recomenda-se atribuir */
   /* uma quantidade de 10 pixels a mais daquela */
   /* atribuída ao tamanho da fonte.*/
   font-weight: bold; /* Peso da fonte */
